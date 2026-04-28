@@ -71,7 +71,7 @@ export default function BuyBeans() {
         </div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="font-['Playfair_Display'] text-5xl md:text-6xl text-white font-bold mb-6 drop-shadow-lg">
+          <h1 className="font-['Playfair_Display'] text-4xl sm:text-5xl md:text-6xl text-white font-bold mb-6 drop-shadow-lg">
             Compre Nossos Grãos
           </h1>
           <p className="font-['Lato'] text-xl text-gray-300 max-w-2xl mx-auto">
@@ -82,10 +82,10 @@ export default function BuyBeans() {
 
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-12">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12">
             {products.map((product) => (
               <div key={product.id} className="bg-white rounded-3xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.08)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.15)] transition-all duration-300 flex flex-col sm:flex-row group border border-gray-100">
-                <div className="sm:w-2/5 h-64 sm:h-auto relative overflow-hidden bg-gray-100 flex items-center justify-center">
+                <div className="sm:w-2/5 h-52 sm:h-auto relative overflow-hidden bg-gray-100 flex items-center justify-center flex-shrink-0">
                   <img
                     src={product.img}
                     alt={product.name}
@@ -96,7 +96,7 @@ export default function BuyBeans() {
                   </div>
                 </div>
 
-                <div className="p-8 sm:w-3/5 flex flex-col justify-between">
+                <div className="p-6 sm:p-8 sm:w-3/5 flex flex-col justify-between">
                   <div>
                     <div className="flex justify-between items-start mb-2">
                       <h3 className="font-['Playfair_Display'] text-2xl font-bold text-[#180E0E] leading-tight">

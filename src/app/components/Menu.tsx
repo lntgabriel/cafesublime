@@ -60,7 +60,7 @@ export default function Menu() {
       desc: 'Método V60 que ressalta as notas florais e cítricas do grão.',
       price: 'R$ 16,00',
       img: 'https://images.unsplash.com/photo-1652067871299-0287c2bb881b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwb3VyJTIwb3ZlciUyMGNvZmZlZSUyMHY2MHxlbnwxfHx8fDE3NzcxNzE3MDV8MA&ixlib=rb-4.1.0&q=80&w=1080',
-      details: 'Café preparado no método V60, destacando as características únicas de origem dos nossos grãos arábicas sauditas.'
+      details: 'Café preparado no método V60, destacando as características únicas de origem dos nossos grãos arábica. Bebida limpa, aromática e cheia de nuances.'
     },
     {
       name: 'Café Coado Tradicional',
@@ -113,21 +113,21 @@ export default function Menu() {
       desc: 'Pão francês quentinho na chapa com manteiga derretida.',
       price: 'R$ 16,00',
       img: 'https://static.itdg.com.br/images/640-auto/3f5318d4c25b35afb4df0547fe8e9dc0/shutterstock-2511230593.jpg',
-      details: 'Pão francês quentinho na chapa com manteiga derretida feita com manteiga francesa, resultando em camadas perfeitas e sabor autêntico.'
+      details: 'Pão francês fresquinho prensado na chapa quente com manteiga derretida, crocante por fora e macio por dentro. Acompanhamento clássico e irresistível.'
     },
     {
       name: 'Misto Quente',
       desc: 'Pão francês quentinho com presunto e queijo derretidos na chapa.',
       price: 'R$ 16,00',
       img: 'https://vilmaconfeitarianovamutum.com.br/wp-content/uploads/2024/10/44c5c9a00e19e191aed5c55075b38e84.jpg',
-      details: 'Misto Quente feito na chapa feita com manteiga francesa, resultando em camadas perfeitas e sabor autêntico.'
+      details: 'Pão francês na chapa recheado com presunto e queijo derretidos, dourado e crocante por fora. Uma opção rápida, saborosa e muito satisfatória.'
     },
     {
       name: 'Pão com Ovo',
       desc: 'Pão francês quentinho com ovo feito na chapa.',
       price: 'R$ 16,00',
       img: 'https://img.freepik.com/fotos-premium/sanduiche-ciabatta-com-ovos-mexidos_917664-8673.jpg',
-      details: 'Pão com Ovo quente na chapa feita com manteiga francesa, resultando em camadas perfeitas e sabor autêntico.'
+      details: 'Pão francês tostado na chapa com ovo mexido ou frito cremoso, temperado a gosto. Prático, nutritivo e cheio de sabor para qualquer hora do dia.'
     },
     {
       name: 'Brownie de Chocolate',
@@ -187,10 +187,10 @@ export default function Menu() {
     },
     {
       name: 'Torta Cookie',
-      desc: 'Deliciosa torta de cookie com cobertura de chocolate',
+      desc: 'Base crocante de cookie com recheio cremoso e cobertura de chocolate.',
       price: 'R$ 10,00',
       img: 'https://i.ytimg.com/vi/GE7Ng6kKAxg/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDzX-oifC3QBE8DWAhLhgBff2JhDA',
-      details: 'Torta Cookie Deliciosa e cremosa com cobertura de chocolate meio amargo.'
+      details: 'Torta com base de massa de cookie crocante, recheio cremoso e generosa cobertura de chocolate meio amargo. Indulgente e muito saborosa.'
     },
     {
       name: 'Torta Holandesa',
@@ -216,10 +216,10 @@ export default function Menu() {
   ];
 
   return (
-    <div className="bg-white">
+    <div className="bg-white pb-16 md:pb-0">
       <section className="pt-36 pb-24 bg-gradient-to-b from-[#644536] to-[#4a3328]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="font-['Playfair_Display'] text-5xl md:text-6xl text-white font-bold mb-6">
+          <h1 className="font-['Playfair_Display'] text-4xl sm:text-5xl md:text-6xl text-white font-bold mb-6">
             Cardápio Completo
           </h1>
           <p className="font-['Lato'] text-xl text-gray-200 max-w-2xl mx-auto">
@@ -234,7 +234,7 @@ export default function Menu() {
             <h2 className="font-['Playfair_Display'] text-4xl md:text-5xl text-[#180E0E] font-bold mb-4">Cafés</h2>
             <div className="w-24 h-1 bg-[#644536] mx-auto"></div>
             <p className="font-['Lato'] text-lg text-[#180E0E] opacity-70 mt-6">
-              Grãos arábicos selecionados da Arábia Saudita
+              Grãos arábica de origem selecionada, com torra artesanal
             </p>
           </div>
 
@@ -328,11 +328,11 @@ export default function Menu() {
 
       {selectedItem && (
         <div
-          className="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 flex items-center justify-center p-4 animate-in fade-in duration-200"
+          className="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 flex items-end sm:items-center justify-center p-0 sm:p-4"
           onClick={() => setSelectedItem(null)}
         >
           <div
-            className="bg-white rounded-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto shadow-2xl animate-in zoom-in duration-300"
+            className="bg-white rounded-t-2xl sm:rounded-2xl w-full sm:max-w-4xl max-h-[92vh] overflow-y-auto shadow-2xl"
             onClick={(e) => e.stopPropagation()}
           >
             <div className="relative">
@@ -343,8 +343,8 @@ export default function Menu() {
                 <X size={24} className="text-[#180E0E]" />
               </button>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div className="h-[400px] md:h-full overflow-hidden rounded-tl-2xl md:rounded-bl-2xl md:rounded-tr-none rounded-tr-2xl">
+              <div className="grid grid-cols-1 md:grid-cols-2">
+                <div className="h-64 sm:h-80 md:h-full overflow-hidden rounded-tl-2xl rounded-tr-2xl md:rounded-tr-none md:rounded-bl-2xl">
                   <img
                     src={selectedItem.img}
                     alt={selectedItem.name}

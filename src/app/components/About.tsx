@@ -57,10 +57,10 @@ export default function About() {
               </h2>
               <div className="space-y-6 font-['Lato'] text-[#180E0E] text-lg leading-relaxed">
                 <p className="opacity-90">
-                  O Café Sublime nasceu de um sonho: trazer ao Brasil a experiência autêntica dos melhores cafés do mundo. Tudo começou quando nossos fundadores viajaram até as terras altas da Arábia Saudita e se apaixonaram pela riqueza e complexidade dos grãos arábicas cultivados lá.
+                  O Café Sublime nasceu de um sonho: trazer ao Brasil a experiência autêntica dos melhores cafés do mundo. Tudo começou quando nossos fundadores se aprofundaram no universo dos cafés especiais e se apaixonaram pela riqueza e complexidade dos grãos arábica de altitúde.
                 </p>
                 <p className="opacity-90">
-                  Decididos a compartilhar essa descoberta, estabelecemos parcerias diretas com produtores locais, garantindo que cada grão seja selecionado manualmente e chegue até você com todo seu sabor e frescor preservados.
+                  Decididos a compartilhar essa descoberta, estabelecemos parcerias diretas com produtores de microlotes certificados, garantindo que cada grão seja selecionado com rigor e chegue até você com todo seu sabor e frescor preservados.
                 </p>
                 <p className="opacity-90">
                   Hoje, somos mais que uma cafeteria. Somos um ponto de encontro para amantes de café, um espaço de descoberta e apreciação, onde cada xícara conta uma história de tradição, qualidade e paixão.
@@ -117,7 +117,7 @@ export default function About() {
                       Seleção Manual
                     </h3>
                     <p className="font-['Lato'] text-[#180E0E] opacity-80">
-                      Cada grão é cuidadosamente escolhido a mão por especialistas nas fazendas da Arábia Saudita.
+                      Cada grão é cuidadosamente escolhido à mão por especialistas nas fazendas parceiras, garantindo só os melhores frutos.
                     </p>
                   </div>
                 </div>
@@ -192,7 +192,7 @@ export default function About() {
               Compromisso Global, Sabor Local
             </h2>
             <p className="font-['Lato'] text-xl text-gray-300 leading-relaxed mb-8">
-              Trabalhamos diretamente com agricultores na Arábia Saudita, garantindo práticas justas e sustentáveis. Cada compra que você faz apoia comunidades agrícolas e preserva tradições milenares de cultivo de café.
+              Trabalhamos diretamente com agricultores de microlotes certificados, garantindo práticas justas e sustentáveis. Cada compra que você faz apoia comunidades agrícolas e preserva tradições milenares de cultivo de café.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
               <div className="p-6 bg-white/10 rounded-xl backdrop-blur-sm">
