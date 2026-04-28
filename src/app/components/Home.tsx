@@ -248,11 +248,11 @@ const Reviews = () => {
       color: 'bg-blue-600',
     },
     {
-      name: 'Sther da Silva Nascimento',
+      name: 'Sther',
       role: 'Cliente Frequente',
       text: 'Venho aqui todas as manhãs com meu marido e meus filhos. O cappuccino é perfeito e o ambiente é super aconchegante para trabalhar. Wi-Fi excelente e atendimento sempre simpático!',
       rating: 5,
-      avatar: 'SSN',
+      avatar: 'S',
       color: 'bg-emerald-600',
     },
     {
